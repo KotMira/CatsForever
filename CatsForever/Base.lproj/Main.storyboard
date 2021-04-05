@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CatsForever" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gjw-D6-Wc0">
+                                <rect key="frame" x="0.0" y="20" width="414" height="852"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TmA-UW-QOn">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nwk-nP-UzH" userLabel="progressBar" customClass="ProgressBar" customModule="CatsForever" customModuleProvider="target">
+                                        <rect key="frame" x="322" y="58" width="50" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="WFp-eD-KGD"/>
+                                            <constraint firstAttribute="height" constant="50" id="yOr-lq-H1E"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="TmA-UW-QOn" firstAttribute="width" secondItem="I6Q-ow-cta" secondAttribute="width" id="2Na-44-jdx"/>
+                                    <constraint firstItem="I6Q-ow-cta" firstAttribute="trailing" secondItem="Nwk-nP-UzH" secondAttribute="trailing" constant="42" id="3du-Z3-IKH"/>
+                                    <constraint firstItem="Nwk-nP-UzH" firstAttribute="top" secondItem="I6Q-ow-cta" secondAttribute="top" constant="58" id="Rhf-ef-o75"/>
+                                    <constraint firstItem="TmA-UW-QOn" firstAttribute="leading" secondItem="fml-X4-k66" secondAttribute="leading" id="Rtw-h7-0Ao"/>
+                                    <constraint firstItem="TmA-UW-QOn" firstAttribute="top" secondItem="fml-X4-k66" secondAttribute="top" id="adR-38-qek"/>
+                                    <constraint firstItem="TmA-UW-QOn" firstAttribute="trailing" secondItem="fml-X4-k66" secondAttribute="trailing" id="eih-b8-wSy"/>
+                                    <constraint firstItem="TmA-UW-QOn" firstAttribute="centerX" secondItem="Gjw-D6-Wc0" secondAttribute="centerX" id="ovU-hm-wGW"/>
+                                    <constraint firstItem="TmA-UW-QOn" firstAttribute="centerY" secondItem="Gjw-D6-Wc0" secondAttribute="centerY" id="rZH-rl-5Rc"/>
+                                    <constraint firstItem="TmA-UW-QOn" firstAttribute="bottom" secondItem="fml-X4-k66" secondAttribute="bottom" id="zSl-D4-owh"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="fml-X4-k66"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="I6Q-ow-cta"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Gjw-D6-Wc0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yqk-0R-IUC"/>
+                            <constraint firstAttribute="bottom" secondItem="Gjw-D6-Wc0" secondAttribute="bottom" constant="24" id="kyR-pj-eGO"/>
+                            <constraint firstItem="Gjw-D6-Wc0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="m1w-Gn-xMA"/>
+                            <constraint firstItem="Gjw-D6-Wc0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-24" id="pQs-sx-4P8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="barProgress" destination="Nwk-nP-UzH" id="t3c-Tx-hcp"/>
+                        <outlet property="catsImage" destination="TmA-UW-QOn" id="ggs-Fp-bTW"/>
+                        <outlet property="scroll" destination="Gjw-D6-Wc0" id="taX-pS-My8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="95.758928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

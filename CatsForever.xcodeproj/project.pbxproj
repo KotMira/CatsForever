@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0112C025D875E2C1C49EDA1B /* Pods_CatsForever.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44EB573929F8BFB3C8BB786 /* Pods_CatsForever.framework */; };
+		B1B780CBB7B8774072B13263 /* Pods_CatsWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECAF343E851A51FA3F935D8 /* Pods_CatsWidgetExtension.framework */; };
+		CEA6E61F261497D800D33A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6E61E261497D800D33A81 /* AppDelegate.swift */; };
+		CEA6E621261497D800D33A81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6E620261497D800D33A81 /* SceneDelegate.swift */; };
+		CEA6E623261497D800D33A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6E622261497D800D33A81 /* ViewController.swift */; };
+		CEA6E626261497D800D33A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA6E624261497D800D33A81 /* Main.storyboard */; };
+		CEA6E628261497DB00D33A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA6E627261497DB00D33A81 /* Assets.xcassets */; };
+		CEA6E62B261497DB00D33A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA6E629261497DB00D33A81 /* LaunchScreen.storyboard */; };
+		CEA6E63A2614980000D33A81 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA6E6392614980000D33A81 /* WidgetKit.framework */; };
+		CEA6E63C2614980000D33A81 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA6E63B2614980000D33A81 /* SwiftUI.framework */; };
+		CEA6E6412614980400D33A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA6E6402614980400D33A81 /* Assets.xcassets */; };
+		CEA6E6452614980400D33A81 /* CatsWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CEA6E6372614980000D33A81 /* CatsWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CEA6E66426149B3700D33A81 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6E66326149B3700D33A81 /* ProgressBar.swift */; };
+		CEA6E66826149B4D00D33A81 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6E66726149B4D00D33A81 /* ApiProvider.swift */; };
+		CEA6E66C26149BBC00D33A81 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6E66B26149BBC00D33A81 /* Downloader.swift */; };
+		CEA6E66F26149CCD00D33A81 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6E66326149B3700D33A81 /* ProgressBar.swift */; };
+		CEA6E67726149CD600D33A81 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6E66B26149BBC00D33A81 /* Downloader.swift */; };
+		CEA6E67A26149CE100D33A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6E622261497D800D33A81 /* ViewController.swift */; };
+		CEA6E68026149CF100D33A81 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6E66726149B4D00D33A81 /* ApiProvider.swift */; };
+		CEA6E69B2614B44100D33A81 /* CatsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6E63E2614980000D33A81 /* CatsWidget.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA6E6432614980400D33A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA6E613261497D800D33A81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA6E6362614980000D33A81;
+			remoteInfo = CatsWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEA6E6492614980400D33A81 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CEA6E6452614980400D33A81 /* CatsWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		218CFA1B316552A4C129E215 /* Pods-CatsWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatsWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-CatsWidgetExtension/Pods-CatsWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
+		52E8057FD23673C0B69BF52D /* Pods-CatsWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatsWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-CatsWidgetExtension/Pods-CatsWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		709D2603DB49E7228CBAF153 /* Pods-CatsForever.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatsForever.debug.xcconfig"; path = "Target Support Files/Pods-CatsForever/Pods-CatsForever.debug.xcconfig"; sourceTree = "<group>"; };
+		A5479EE886E9DC8D82979880 /* Pods-CatsForever.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatsForever.release.xcconfig"; path = "Target Support Files/Pods-CatsForever/Pods-CatsForever.release.xcconfig"; sourceTree = "<group>"; };
+		AECAF343E851A51FA3F935D8 /* Pods_CatsWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatsWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44EB573929F8BFB3C8BB786 /* Pods_CatsForever.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatsForever.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA6E61B261497D800D33A81 /* CatsForever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatsForever.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA6E61E261497D800D33A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA6E620261497D800D33A81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEA6E622261497D800D33A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEA6E625261497D800D33A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA6E627261497DB00D33A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA6E62A261497DB00D33A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA6E62C261497DB00D33A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA6E6372614980000D33A81 /* CatsWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CatsWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA6E6392614980000D33A81 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		CEA6E63B2614980000D33A81 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CEA6E63E2614980000D33A81 /* CatsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsWidget.swift; sourceTree = "<group>"; };
+		CEA6E6402614980400D33A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA6E6422614980400D33A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA6E66326149B3700D33A81 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		CEA6E66726149B4D00D33A81 /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
+		CEA6E66B26149BBC00D33A81 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA6E618261497D800D33A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0112C025D875E2C1C49EDA1B /* Pods_CatsForever.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA6E6342614980000D33A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA6E63C2614980000D33A81 /* SwiftUI.framework in Frameworks */,
+				CEA6E63A2614980000D33A81 /* WidgetKit.framework in Frameworks */,
+				B1B780CBB7B8774072B13263 /* Pods_CatsWidgetExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CAC0E728CADED0FE45EC601 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				709D2603DB49E7228CBAF153 /* Pods-CatsForever.debug.xcconfig */,
+				A5479EE886E9DC8D82979880 /* Pods-CatsForever.release.xcconfig */,
+				52E8057FD23673C0B69BF52D /* Pods-CatsWidgetExtension.debug.xcconfig */,
+				218CFA1B316552A4C129E215 /* Pods-CatsWidgetExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEA6E612261497D800D33A81 = {
+			isa = PBXGroup;
+			children = (
+				CEA6E61D261497D800D33A81 /* CatsForever */,
+				CEA6E63D2614980000D33A81 /* CatsWidget */,
+				CEA6E6382614980000D33A81 /* Frameworks */,
+				CEA6E61C261497D800D33A81 /* Products */,
+				6CAC0E728CADED0FE45EC601 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA6E61C261497D800D33A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6E61B261497D800D33A81 /* CatsForever.app */,
+				CEA6E6372614980000D33A81 /* CatsWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA6E61D261497D800D33A81 /* CatsForever */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6E61E261497D800D33A81 /* AppDelegate.swift */,
+				CEA6E620261497D800D33A81 /* SceneDelegate.swift */,
+				CEA6E622261497D800D33A81 /* ViewController.swift */,
+				CEA6E66326149B3700D33A81 /* ProgressBar.swift */,
+				CEA6E66726149B4D00D33A81 /* ApiProvider.swift */,
+				CEA6E66B26149BBC00D33A81 /* Downloader.swift */,
+				CEA6E624261497D800D33A81 /* Main.storyboard */,
+				CEA6E627261497DB00D33A81 /* Assets.xcassets */,
+				CEA6E629261497DB00D33A81 /* LaunchScreen.storyboard */,
+				CEA6E62C261497DB00D33A81 /* Info.plist */,
+			);
+			path = CatsForever;
+			sourceTree = "<group>";
+		};
+		CEA6E6382614980000D33A81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6E6392614980000D33A81 /* WidgetKit.framework */,
+				CEA6E63B2614980000D33A81 /* SwiftUI.framework */,
+				C44EB573929F8BFB3C8BB786 /* Pods_CatsForever.framework */,
+				AECAF343E851A51FA3F935D8 /* Pods_CatsWidgetExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEA6E63D2614980000D33A81 /* CatsWidget */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6E63E2614980000D33A81 /* CatsWidget.swift */,
+				CEA6E6402614980400D33A81 /* Assets.xcassets */,
+				CEA6E6422614980400D33A81 /* Info.plist */,
+			);
+			path = CatsWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA6E61A261497D800D33A81 /* CatsForever */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA6E62F261497DB00D33A81 /* Build configuration list for PBXNativeTarget "CatsForever" */;
+			buildPhases = (
+				D2AEACAF9EE8FD8C5BA0047C /* [CP] Check Pods Manifest.lock */,
+				CEA6E617261497D800D33A81 /* Sources */,
+				CEA6E618261497D800D33A81 /* Frameworks */,
+				CEA6E619261497D800D33A81 /* Resources */,
+				CEA6E6492614980400D33A81 /* Embed App Extensions */,
+				1BD18616A1DF9913EEF2A749 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA6E6442614980400D33A81 /* PBXTargetDependency */,
+			);
+			name = CatsForever;
+			productName = CatsForever;
+			productReference = CEA6E61B261497D800D33A81 /* CatsForever.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA6E6362614980000D33A81 /* CatsWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA6E6462614980400D33A81 /* Build configuration list for PBXNativeTarget "CatsWidgetExtension" */;
+			buildPhases = (
+				FED090353C960F2F550BC90C /* [CP] Check Pods Manifest.lock */,
+				CEA6E6332614980000D33A81 /* Sources */,
+				CEA6E6342614980000D33A81 /* Frameworks */,
+				CEA6E6352614980000D33A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatsWidgetExtension;
+			productName = CatsWidgetExtension;
+			productReference = CEA6E6372614980000D33A81 /* CatsWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA6E613261497D800D33A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CEA6E61A261497D800D33A81 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CEA6E6362614980000D33A81 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CEA6E616261497D800D33A81 /* Build configuration list for PBXProject "CatsForever" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA6E612261497D800D33A81;
+			productRefGroup = CEA6E61C261497D800D33A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA6E61A261497D800D33A81 /* CatsForever */,
+				CEA6E6362614980000D33A81 /* CatsWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA6E619261497D800D33A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA6E62B261497DB00D33A81 /* LaunchScreen.storyboard in Resources */,
+				CEA6E628261497DB00D33A81 /* Assets.xcassets in Resources */,
+				CEA6E626261497D800D33A81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA6E6352614980000D33A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA6E6412614980400D33A81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BD18616A1DF9913EEF2A749 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatsForever/Pods-CatsForever-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatsForever/Pods-CatsForever-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatsForever/Pods-CatsForever-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2AEACAF9EE8FD8C5BA0047C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatsForever-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FED090353C960F2F550BC90C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatsWidgetExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA6E617261497D800D33A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA6E623261497D800D33A81 /* ViewController.swift in Sources */,
+				CEA6E61F261497D800D33A81 /* AppDelegate.swift in Sources */,
+				CEA6E66C26149BBC00D33A81 /* Downloader.swift in Sources */,
+				CEA6E66826149B4D00D33A81 /* ApiProvider.swift in Sources */,
+				CEA6E66426149B3700D33A81 /* ProgressBar.swift in Sources */,
+				CEA6E621261497D800D33A81 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA6E6332614980000D33A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA6E66F26149CCD00D33A81 /* ProgressBar.swift in Sources */,
+				CEA6E69B2614B44100D33A81 /* CatsWidget.swift in Sources */,
+				CEA6E68026149CF100D33A81 /* ApiProvider.swift in Sources */,
+				CEA6E67A26149CE100D33A81 /* ViewController.swift in Sources */,
+				CEA6E67726149CD600D33A81 /* Downloader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA6E6442614980400D33A81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA6E6362614980000D33A81 /* CatsWidgetExtension */;
+			targetProxy = CEA6E6432614980400D33A81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEA6E624261497D800D33A81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA6E625261497D800D33A81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA6E629261497DB00D33A81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA6E62A261497DB00D33A81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA6E62D261497DB00D33A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA6E62E261497DB00D33A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA6E630261497DB00D33A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 709D2603DB49E7228CBAF153 /* Pods-CatsForever.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TWN3V5W8VN;
+				INFOPLIST_FILE = CatsForever/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KotMira.CatsForever;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA6E631261497DB00D33A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5479EE886E9DC8D82979880 /* Pods-CatsForever.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TWN3V5W8VN;
+				INFOPLIST_FILE = CatsForever/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KotMira.CatsForever;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEA6E6472614980400D33A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E8057FD23673C0B69BF52D /* Pods-CatsWidgetExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TWN3V5W8VN;
+				INFOPLIST_FILE = CatsWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KotMira.CatsForever.CatsWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA6E6482614980400D33A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 218CFA1B316552A4C129E215 /* Pods-CatsWidgetExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TWN3V5W8VN;
+				INFOPLIST_FILE = CatsWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KotMira.CatsForever.CatsWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA6E616261497D800D33A81 /* Build configuration list for PBXProject "CatsForever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA6E62D261497DB00D33A81 /* Debug */,
+				CEA6E62E261497DB00D33A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA6E62F261497DB00D33A81 /* Build configuration list for PBXNativeTarget "CatsForever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA6E630261497DB00D33A81 /* Debug */,
+				CEA6E631261497DB00D33A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA6E6462614980400D33A81 /* Build configuration list for PBXNativeTarget "CatsWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA6E6472614980400D33A81 /* Debug */,
+				CEA6E6482614980400D33A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA6E613261497D800D33A81 /* Project object */;
+}
