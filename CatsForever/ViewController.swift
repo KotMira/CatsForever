@@ -14,9 +14,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var catsImage: UIImageView!
     @IBOutlet weak var barProgress: ProgressBar!
     
+    
     var countFired: CGFloat = 0
     var timer: Timer!
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         
